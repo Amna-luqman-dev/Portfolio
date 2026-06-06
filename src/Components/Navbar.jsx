@@ -4,8 +4,7 @@ import { Link } from "react-router-dom";
 export default function Navbar() {
   return (
     <>
-  <h1>Navbar</h1>
-     <nav className="flex justify-between items-center bg-gray-900 text-white px-8 py-4">
+     <nav className="flex justify-between items-center bg-gray-900 text-white px-8 py-6 gap-4">
       
     
       <div>
@@ -15,31 +14,31 @@ export default function Navbar() {
      
       <ul className="flex gap-8">
         <li>
-          <Link to="/" className="hover:text-sky-400 transition">
+          <Link to="/" className="hover:text-sky-400 transition text-lg">
             Home
           </Link>
         </li>
 
         <li>
-          <Link to="/about" className="hover:text-sky-400 transition">
-            About Me
+          <Link to="/about" className="hover:text-sky-400 transition text-lg">
+            About
           </Link>
         </li>
 
         <li>
-          <Link to="/services" className="hover:text-sky-400 transition">
+          <Link to="/services" className="hover:text-sky-400 transition text-lg">
             Services
           </Link>
         </li>
 
         <li>
-          <Link to="/skills" className="hover:text-sky-400 transition">
+          <Link to="/skills" className="hover:text-sky-400 transition text-lg">
             Skills
           </Link>
         </li>
 
         <li>
-          <Link to="/contact" className="hover:text-sky-400 transition">
+          <Link to="/contact" className="hover:text-sky-400 transition text-lg">
             Contact Me
         </Link>
         </li>
