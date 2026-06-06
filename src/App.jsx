@@ -1,21 +1,30 @@
-import Navbar from "./Components/Navbar";
-// import { BrowserRouter, Routes, Route } from "react-router-dom";
+import { BrowserRouter, Routes, Route } from "react-router-dom";
+import Navbar from "./components/Navbar";
+// import Footer from "./components/Footer";
 
-export default function App(){
-  return(
-    <>
-    <h1>helloo</h1>
-    
-    <Navbar/>
-   {/* <BrowserRouter>
-   <Routes>
-    <Route path="/home" element={<Navbar/>}></Route>
 
-   </Routes>
-   </BrowserRouter> */}
+import HomePage from "./pages/HomePage";
+import AboutPage from "./pages/AboutPage";
+import ContactPage from "./pages/ContactPage";
+import SkillsPage from "./pages/SkillsPage";
+import ServicesPage from "./pages/ServicesPage";
 
-    
-    </>
-  )
+function App() {
+  return (
+    <BrowserRouter>
+      <Navbar />
 
+      <Routes>
+        <Route path="/" element={<HomePage />} />
+        <Route path="/about" element={<AboutPage />} />
+        <Route path="/skills" element={<SkillsPage />} />
+        <Route path="/contact" element={<ContactPage />} />
+         <Route path="/services" element={<ServicesPage />} />
+      </Routes>
+
+      {/* <Footer /> */}
+    </BrowserRouter>
+  );
 }
+
+export default App;
