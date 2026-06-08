@@ -26,8 +26,8 @@ export default function Navbar() {
         </li>
 
         <li>
-          <Link to="/services" className="hover:text-sky-400 transition text-lg">
-            Services
+          <Link to="/project" className="hover:text-sky-400 transition text-lg">
+            Project
           </Link>
         </li>
 

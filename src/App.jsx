@@ -7,7 +7,7 @@ import HomePage from "./pages/HomePage";
 import AboutPage from "./pages/AboutPage";
 import ContactPage from "./pages/ContactPage";
 import SkillsPage from "./pages/SkillsPage";
-import ServicesPage from "./pages/ServicesPage";
+import ProjectPage from "./pages/ProjectPage";
 
 function App() {
   return (
@@ -19,7 +19,7 @@ function App() {
         <Route path="/about" element={<AboutPage />} />
         <Route path="/skills" element={<SkillsPage />} />
         <Route path="/contact" element={<ContactPage />} />
-         <Route path="/services" element={<ServicesPage />} />
+         <Route path="/project" element={<ProjectPage />} />
       </Routes>
 
       {/* <Footer /> */}
