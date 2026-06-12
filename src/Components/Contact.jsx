@@ -26,8 +26,7 @@ export default function Contact() {
 
               <p className="flex items-center gap-3">
                 <FaLinkedin className="text-xl" />
-                https://www.linkedin.com/in/amna-luqman-6453a134a
-              </p>
+                https://www.linkedin.com/in/amna-luqman-dev  </p>
 
               <p className="flex items-center gap-3">
                 <FaGithub className="text-xl" />
