@@ -3,11 +3,11 @@ import Navbar from "./Components/Navbar";
 // import Footer from "./components/Footer";
 
 
-import HomePage from "./pages/HomePage";
-import AboutPage from "./pages/AboutPage";
-import ContactPage from "./pages/ContactPage";
-import SkillsPage from "./pages/SkillsPage";
-import ProjectPage from "./pages/ProjectPage";
+import HomePage from "./Pages/HomePage";
+import AboutPage from "./Pages/AboutPage";
+import ContactPage from "./Pages/ContactPage";
+import SkillsPage from "./Pages/SkillsPage";
+import ProjectPage from "./Pages/ProjectPage";
 
 function App() {
   return (
