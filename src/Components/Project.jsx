@@ -10,10 +10,10 @@ export default function Project() {
       </h1>
 
       <div className="max-w-6xl mx-auto space-y-16">
-        
+
         {/* Project 1 */}
         <div className="grid grid-cols-1 md:grid-cols-2 gap-8 items-center bg-gray-900 rounded-2xl shadow-lg overflow-hidden hover:shadow-2xl transition duration-300">
-          
+
           <div>
             <img
               src={radixImg}
@@ -38,19 +38,20 @@ export default function Project() {
             </p>
 
             <a
-  href="https://github.com/Amna-luqman-dev/Radix-academy"
-  target="_blank"
-  rel="noopener noreferrer"
-  className="mt-6 inline-block bg-blue-600 hover:bg-blue-700 px-6 py-3 rounded-lg font-semibold transition duration-300"
->
-  View Project
-</a>
+              href="https://github.com/Amna-luqman-dev/Radix-academy"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="mt-6 inline-block bg-blue-600 hover:bg-blue-700 px-6 py-3
+   rounded-lg font-semibold transition duration-300"
+            >
+              View Project
+            </a>
           </div>
         </div>
 
         {/* Project 2 */}
         <div className="grid grid-cols-1 md:grid-cols-2 gap-8 items-center bg-gray-900 rounded-2xl shadow-lg overflow-hidden hover:shadow-2xl transition duration-300">
-          
+
           <div className="p-8 order-2 md:order-1">
             <h3 className="text-3xl font-bold mb-4">
               Kitchen Reservation System
@@ -66,13 +67,16 @@ export default function Project() {
               integration.
             </p>
 
-            <button className ="mt-6 bg-blue-600 hover:bg-blue-700
-             px-6 py-3 rounded-lg font-semibold transition duration-300"  
-            
-             a href="https://github.com/Amna-luqman-dev/KitchenAura-with-html-css"
-             >
+             
+            <a
+              href="https://github.com/Amna-luqman-dev/KitchenAura-with-html-css"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="mt-6 inline-block bg-blue-600 hover:bg-blue-700 px-6 py-3
+   rounded-lg font-semibold transition duration-300"
+            >
               View Project
-            </button>
+            </a>
           </div>
 
           <div className="order-1 md:order-2">
