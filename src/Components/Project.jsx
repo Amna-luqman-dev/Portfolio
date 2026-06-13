@@ -37,9 +37,14 @@ export default function Project() {
               smooth business operations.
             </p>
 
-            <button className="mt-6 bg-blue-600 hover:bg-blue-700 px-6 py-3 rounded-lg font-semibold transition duration-300">
-              View Project
-            </button>
+            <a
+  href="https://github.com/Amna-luqman-dev/Radix-academy"
+  target="_blank"
+  rel="noopener noreferrer"
+  className="mt-6 inline-block bg-blue-600 hover:bg-blue-700 px-6 py-3 rounded-lg font-semibold transition duration-300"
+>
+  View Project
+</a>
           </div>
         </div>
 
@@ -61,7 +66,11 @@ export default function Project() {
               integration.
             </p>
 
-            <button className="mt-6 bg-blue-600 hover:bg-blue-700 px-6 py-3 rounded-lg font-semibold transition duration-300">
+            <button className ="mt-6 bg-blue-600 hover:bg-blue-700
+             px-6 py-3 rounded-lg font-semibold transition duration-300"  
+            
+             a href="https://github.com/Amna-luqman-dev/KitchenAura-with-html-css"
+             >
               View Project
             </button>
           </div>
